@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0474BDAC1CF6D23F00140A3F /* UIBarButtonItem+DXNBarButtonItemTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474BDAB1CF6D23F00140A3F /* UIBarButtonItem+DXNBarButtonItemTool.m */; };
+		0474BDAF1CF6E3F300140A3F /* DXNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474BDAE1CF6E3F300140A3F /* DXNNavigationController.m */; };
 		04B7972F1CF587B400661170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B7972E1CF587B400661170 /* main.m */; };
 		04B797321CF587B400661170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B797311CF587B400661170 /* AppDelegate.m */; };
 		04B7973A1CF587B400661170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B797391CF587B400661170 /* Assets.xcassets */; };
@@ -40,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0474BDAA1CF6D23F00140A3F /* UIBarButtonItem+DXNBarButtonItemTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DXNBarButtonItemTool.h"; sourceTree = "<group>"; };
+		0474BDAB1CF6D23F00140A3F /* UIBarButtonItem+DXNBarButtonItemTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DXNBarButtonItemTool.m"; sourceTree = "<group>"; };
+		0474BDAD1CF6E3F300140A3F /* DXNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXNNavigationController.h; sourceTree = "<group>"; };
+		0474BDAE1CF6E3F300140A3F /* DXNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXNNavigationController.m; sourceTree = "<group>"; };
 		04B7972A1CF587B400661170 /* Baisibudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baisibudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B7972E1CF587B400661170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04B797301CF587B400661170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,8 +71,8 @@
 		04B797831CF58CEA00661170 /* DXNNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXNNewController.m; sourceTree = "<group>"; };
 		04B797851CF59B7200661170 /* DXNTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXNTabBar.h; sourceTree = "<group>"; };
 		04B797861CF59B7200661170 /* DXNTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXNTabBar.m; sourceTree = "<group>"; };
-		04B797881CF5A69D00661170 /* UIView+DXNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DXNExtension.h"; sourceTree = "<group>"; };
-		04B797891CF5A69D00661170 /* UIView+DXNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DXNExtension.m"; sourceTree = "<group>"; };
+		04B797881CF5A69D00661170 /* UIView+DXNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DXNExtension.h"; path = "View/UIView+DXNExtension.h"; sourceTree = "<group>"; };
+		04B797891CF5A69D00661170 /* UIView+DXNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DXNExtension.m"; path = "View/UIView+DXNExtension.m"; sourceTree = "<group>"; };
 		04B7978B1CF5A6E100661170 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,9 +165,9 @@
 			isa = PBXGroup;
 			children = (
 				04B797611CF5895200661170 /* Essence-精华 */,
+				04B7976D1CF5895200661170 /* New-新帖 */,
 				04B797651CF5895200661170 /* FriendTrend-关注 */,
 				04B797691CF5895200661170 /* Me-我 */,
-				04B7976D1CF5895200661170 /* New-新帖 */,
 				04B797711CF5895200661170 /* Other */,
 				04B797751CF5895200661170 /* Tool */,
 			);
@@ -307,6 +313,10 @@
 				04B797731CF5895200661170 /* Model */,
 				04B797741CF5895200661170 /* View */,
 				04B7978B1CF5A6E100661170 /* PrefixHeader.pch */,
+				04B797881CF5A69D00661170 /* UIView+DXNExtension.h */,
+				04B797891CF5A69D00661170 /* UIView+DXNExtension.m */,
+				0474BDAA1CF6D23F00140A3F /* UIBarButtonItem+DXNBarButtonItemTool.h */,
+				0474BDAB1CF6D23F00140A3F /* UIBarButtonItem+DXNBarButtonItemTool.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -316,6 +326,8 @@
 			children = (
 				04B797761CF58BCD00661170 /* DXNTabBarController.h */,
 				04B797771CF58BCD00661170 /* DXNTabBarController.m */,
+				0474BDAD1CF6E3F300140A3F /* DXNNavigationController.h */,
+				0474BDAE1CF6E3F300140A3F /* DXNNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -332,8 +344,6 @@
 			children = (
 				04B797851CF59B7200661170 /* DXNTabBar.h */,
 				04B797861CF59B7200661170 /* DXNTabBar.m */,
-				04B797881CF5A69D00661170 /* UIView+DXNExtension.h */,
-				04B797891CF5A69D00661170 /* UIView+DXNExtension.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -480,9 +490,11 @@
 				04B7977B1CF58C9F00661170 /* DXNEssenceController.m in Sources */,
 				04B797841CF58CEA00661170 /* DXNNewController.m in Sources */,
 				04B7972F1CF587B400661170 /* main.m in Sources */,
+				0474BDAF1CF6E3F300140A3F /* DXNNavigationController.m in Sources */,
 				04B797871CF59B7200661170 /* DXNTabBar.m in Sources */,
 				04B797781CF58BCD00661170 /* DXNTabBarController.m in Sources */,
 				04B797811CF58CDC00661170 /* DXNMeController.m in Sources */,
+				0474BDAC1CF6D23F00140A3F /* UIBarButtonItem+DXNBarButtonItemTool.m in Sources */,
 				04B7977E1CF58CCB00661170 /* DXNFriendTrendController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -703,6 +715,7 @@
 				04B797591CF587B500661170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B7975A1CF587B500661170 /* Build configuration list for PBXNativeTarget "BaisibudejieTests" */ = {
 			isa = XCConfigurationList;
@@ -711,6 +724,7 @@
 				04B7975C1CF587B500661170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B7975D1CF587B500661170 /* Build configuration list for PBXNativeTarget "BaisibudejieUITests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +733,7 @@
 				04B7975F1CF587B500661170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

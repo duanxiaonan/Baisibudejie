@@ -10,7 +10,16 @@
 #define PrefixHeader_pch
 
 #import "UIView+DXNExtension.h"
+#import "UIBarButtonItem+DXNBarButtonItemTool.h"
 
+#ifdef DEBUG
+#define DXNLog(...) NSLog(__VA_ARGS__)
+#else
+#define DXNLog(...) 
+#endif
 
+#define DXNFun DXNLog(@"%s",__func__)
+
+#define DXNRGBColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
 
 #endif /* PrefixHeader_pch */

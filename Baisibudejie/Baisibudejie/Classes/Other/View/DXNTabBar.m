@@ -20,7 +20,9 @@
     
     self = [super initWithFrame:frame];
     if (self) {
-        
+        //设置tabbar的背景
+        [self setBackgroundImage:[UIImage imageNamed:@"tabbar-light"]];
+
         //设置发布按钮
         UIButton * publishButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
@@ -35,7 +37,7 @@
     
     [super layoutSubviews];
     //设置发布按钮的frame
-    self.publishButton.bounds = CGRectMake(0, 0, self.publishButton.currentBackgroundImage.size.width, self.publishButton.currentBackgroundImage.size.height);
+    self.publishButton.size = self.publishButton.currentBackgroundImage.size;
     self.publishButton.center = CGPointMake(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
     //设置其他按钮的frame
     CGFloat buttonY = 0;

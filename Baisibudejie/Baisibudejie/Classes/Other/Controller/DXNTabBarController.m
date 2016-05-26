@@ -12,6 +12,7 @@
 #import "DXNMeController.h"
 #import "DXNNewController.h"
 #import "DXNTabBar.h"
+#import "DXNNavigationController.h"
 
 @interface DXNTabBarController ()
 
@@ -65,8 +66,8 @@
     childController.tabBarItem.selectedImage = selectedImage;
     
     //给标签栏控制器添加导航控制器为子控制器
-    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:childController];
-    
+    DXNNavigationController * nav = [[DXNNavigationController alloc]initWithRootViewController:childController];
+    [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
     [self addChildViewController:nav];
     
 }
